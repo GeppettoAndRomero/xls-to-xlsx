@@ -1,0 +1,36 @@
+{
+  "name": "XLS to XLSX Converter \u2014 runlocally",
+  "short_name": "XLS to XLSX",
+  "description": "Convert an Excel 97\u20132003 XLS workbook to XLSX using sheet names and cell values. Processing runs in the browser.",
+  "start_url": "/xls-to-xlsx/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "scope": "/xls-to-xlsx/",
+  "icons": [
+    {
+      "src": "/xls-to-xlsx/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/xls-to-xlsx/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
