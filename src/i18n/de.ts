@@ -99,4 +99,9 @@ export const de: ToolContent = {
       'Entwickelt und gepflegt von Geppetto. Bei Teilen des Codes kommt KI-Unterstützung zum Einsatz; Prüfung und Entscheidungen liegen beim Maintainer.',
     securityText: 'Sicherheit',
   },
+
+  related: {
+    h2: 'Ähnliche Tools',
+    blogLinkText: 'Technische Hintergründe lesen',
+  },
 };
